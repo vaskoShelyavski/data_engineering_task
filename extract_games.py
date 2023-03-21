@@ -35,10 +35,10 @@ def format_date(date: str) -> str:
             Examples: 2021-04-29 13:26:32
 
     Returns:
-        Examples: 1972-05-20T17:33:18Z
+        Examples: 2021-04-29T13:26:32Z
     """
     logging.debug(f"")
-    date = date.split(date)
+    date = date.split()
     return f"{date[0]}T{date[1]}Z"
 
 
